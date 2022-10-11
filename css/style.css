@@ -1,0 +1,33 @@
+body {
+  /* background: #ee9ca7; 
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);  */
+  background: #f953c6;
+  background: -webkit-linear-gradient(to right, #b91d73, #f953c6);
+  background: linear-gradient(to right, #b91d73, #f953c6);
+}
+
+h1 {
+  color: #eee;
+}
+
+.title {
+  text-align: center;
+}
+
+.download {
+  color: #eee;
+  font-size: 30px;
+}
+
+p {
+  color: #eee;
+}
+
+.foto {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid rgb(152, 6, 219);
+  margin: 0 auto;
+}
