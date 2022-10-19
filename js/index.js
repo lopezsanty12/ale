@@ -109,3 +109,7 @@ particlesJS(
     },
     "retina_detect": true
   });
+
+  function posdata() {
+    swal("¡Posdata!", "Siento no haberte pedido permiso para usar tu foto, pero no sabía como contactarte, espero no te moleste, saludos!");
+  }
