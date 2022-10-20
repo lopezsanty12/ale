@@ -111,5 +111,21 @@ particlesJS(
   });
 
   function posdata() {
-    swal("¡Posdata!", "Siento no haberte pedido permiso para usar tu foto, pero no sabía como contactarte, espero no te moleste, saludos!");
+    swal("¡Posdata!", "Siento no haberte pedido permiso para usar tus fotos en este detalle, además quiero invitarte la próxima semana a un café. ¿Aceptas?", {
+      buttons: {
+        cancel: "No",
+        defeat: "Si",
+      }
+    })
+    .then((value)=> {
+
+      switch(value) {
+        case "defeat":
+          window.open('https://api.whatsapp.com/send?phone=50240196841&text=Si%2C%20acepto%20la%20invitaci%C3%B3n%20%F0%9F%A4%AD', "Enviar msj");
+          break;
+        
+        default:
+          swal("Feliz cumpleaños, Alejandra");
+      }
+    })
   }
