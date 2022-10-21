@@ -111,7 +111,7 @@ particlesJS(
   });
 
   function posdata() {
-    swal("¡Posdata!", "Siento no haberte pedido permiso para usar tus fotos en este detalle, además quiero invitarte la próxima semana a un café. ¿Aceptas?", {
+    swal("¡Posdata!", "Siento no haberte pedido permiso en usar tus fotos en este regalo digital...  Quiero invitarte la próxima semana a un café. ¿Aceptas?", {
       buttons: {
         cancel: "No",
         defeat: "Si",
@@ -125,7 +125,7 @@ particlesJS(
           break;
         
         default:
-          swal("Feliz cumpleaños, Alejandra");
+          swal("Feliz cumpleaños","Que la pases muy bien en tu día", "success");
       }
     })
   }
